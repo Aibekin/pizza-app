@@ -1,0 +1,49 @@
+.headling {
+    margin-bottom: 40px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    max-width: 512px;
+    padding: 17px 0;
+}
+
+.hr {
+    max-width: 512px;
+    margin: 0;
+    border: 1px solid #F1F2F3;
+}
+
+.text,
+.price {
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    font-size: 19px;
+}
+
+.line span {
+    color: #9796A1;
+}
+
+.total-count {
+    color: #BEBEBE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.checkout {
+    max-width: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
